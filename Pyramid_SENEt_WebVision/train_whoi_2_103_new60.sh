@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python train_whoi_2_103_new60.py --alpha 64 --depth 110 --no-bottleneck --batchsize 32 --print-freq 10 --expname PyramidNet-110-2_103_new60 --resume /media/ouc/30bd7817-d3a1-4e83-b7d9-5c0e373ae434/LiuJing/Pyramid_SENEt_PyTorch/runs_WHOI/PyramidNet-110-2_103/model_best.pth.tar

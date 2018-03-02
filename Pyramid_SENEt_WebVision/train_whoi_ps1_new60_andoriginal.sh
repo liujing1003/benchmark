@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train_whoi_new60_ps1_andoriginal.py --alpha 64 --depth 110 --no-bottleneck --batchsize 32 --print-freq 10 --expname PyramidNet-110_103_1_60_andoriginal --resume /media/ouc/30bd7817-d3a1-4e83-b7d9-5c0e373ae434/LiuJing/Pyramid_SENEt_PyTorch/runs_WHOI/PyramidNet-110_103_1_60/model_best.pth.tar --tensorboard 

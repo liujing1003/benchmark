@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python train_whoi_2_103_bottle_new60_epoch0start.py --alpha 64 --depth 110 --batchsize 32 --print-freq 10 --expname PyramidNet-110-2_103_bottle_new60_epoch0start 

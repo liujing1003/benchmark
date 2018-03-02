@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python train_WebVision.py --alpha 64 --depth 110 --no-bottleneck --batchsize 32 --print-freq 10 --expname PyramidNet-110_WebVision

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python train_whoi_4_103.py --alpha 64 --depth 110 --no-bottleneck --batchsize 32 --print-freq 10 --expname PyramidNet-110-4_103

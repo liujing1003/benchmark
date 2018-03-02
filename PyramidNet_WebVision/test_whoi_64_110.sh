@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python test_whoi.py --alpha 64 --depth 110 --no-bottleneck --batchsize 32 --dataset WHOI --expname PyramidNet-110 --resume /media/ouc/30bd7817-d3a1-4e83-b7d9-5c0e373ae434/LiuJing/PyramidNet-PyTorch/runs_WHOI/PyramidNet-110/model_best.pth.tar

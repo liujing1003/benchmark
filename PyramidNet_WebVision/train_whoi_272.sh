@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train_whoi.py --alpha 200 --depth 272 --no-bottleneck --batchsize 32 --print-freq 10 --expname PyramidNet-272 --resume /media/ouc/30bd7817-d3a1-4e83-b7d9-5c0e373ae434/LiuJing/PyramidNet-PyTorch/runs_WHOI/PyramidNet-272/checkpoint.pth.tar

@@ -1,0 +1,21 @@
+import argparse
+import os
+import shutil
+import time
+
+import torch
+import torch.nn as nn
+import torch.nn.parallel
+import torch.backends.cudnn as cudnn
+import torch.optim
+import torch.utils.data
+import torchvision.transforms as transforms
+import torchvision.datasets as datasets
+
+import resnet as RN
+import PyramidNet as PYRM
+
+state_dict = /media/ouc/30bd7817-d3a1-4e83-b7d9-5c0e373ae434/LiuJing/PyramidNet-PyTorch/runs_WHOI/PyramidNet-110/copy of model_best.pth.tar
+
+model.load_state_dict(checkpoint['state_dict'])
+
